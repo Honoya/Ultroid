@@ -14,7 +14,7 @@ env:
   MainBranch: main
   NPMRegistry: https://registry.npmjs.org/
   InstallCommand: npm i
-  BuildCommand: cd &amp;&amp; rm -rf Ultroid &amp;&amp; git clone https://github.com/TeamUltroid/Ultroid  &amp;&amp; cd Ultroid &amp;&amp; pip install -r requirements.txt &amp;&amp; pip install -r resour*/start*/optiona*.txt &amp;&amp; python -m pyUltroid
+  BuildCommand: npm run build
   Output: ./
 
 jobs:
